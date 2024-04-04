@@ -22,6 +22,11 @@ namespace WebApplicationLesson1.Controllers
         {
             return View();
         }
+        public string Hello()
+        {
+            DateTime timeOfDay = new DateTime();
+            return Convert.ToString(timeOfDay);
+        }
 
         public IActionResult Privacy()
         {
